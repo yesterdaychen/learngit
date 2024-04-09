@@ -1,3 +1,11 @@
 git init                                #把当前目录设置为git可以管理的仓库
 git add readme.txt                      #添加readme.txt文件到仓库
 git commit -m "wrote a readme file"     #告诉仓库做了哪些操作
+git status                              #命令可以让我们时刻掌握仓库当前的状态
+git diff readme.txt                     #git diff顾名思义就是查看difference
+
+
+
+
+
+基本步骤：修改后先用diff查看做了哪些修改，然后添加到仓库，再commit说明做了哪些操作，最后再用state查看状态有没有没有保存的文件
